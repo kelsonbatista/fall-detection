@@ -1,0 +1,30 @@
+person
+sitting
+reading
+standing
+eating
+washing
+walking
+jumping
+sleeping
+fainting
+falling
+tripping
+lying
+slipping
+staggering
+
+
+
+
+  0: sitting
+  1: standing
+  2: fainting
+  3: failing
+  4: bending
+  5: staggering
+  6: crouching
+  7: tripping
+  8: lying
+  9: slipping
+  10: danger
