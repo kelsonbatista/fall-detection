@@ -1,9 +1,7 @@
 /dataset/fall
 /dataset/no_fall
 /dataset/trash
-dataset/fall
-dataset/no_fall
-dataset/trash
-./dataset/fall
-./dataset/no_fall
-./dataset/trash
+/dataset/test
+/lib
+/lib64
+

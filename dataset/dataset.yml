@@ -1,0 +1,11 @@
+# Dataset
+path: /fall
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+names:
+  0: no_fall
+  1: fall
+  2: attention
