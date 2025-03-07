@@ -10,7 +10,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # 🔹 1️⃣ Treinar o modelo YOLOv8
 model_yolo = YOLO('yolov8n.pt')  # YOLOv8 Nano para velocidade
-model_yolo.train(data='path/to/dataset.yaml', epochs=50, imgsz=640)
+model_yolo.train(data='dataset/dataset.yaml', epochs=50, imgsz=640)
 
 # 🔹 2️⃣ Função para extrair características (bounding boxes)
 def extract_features(results):
@@ -64,7 +64,7 @@ model_lstm.load_state_dict(torch.load("fall_lstm.pth", map_location=device))
 model_lstm.eval()
 
 # 🔹 8️⃣ Avaliação em tempo real (detecção de quedas)
-cap = cv2.VideoCapture('test_video.mp4')
+cap = cv2.VideoCapture('/dataset/test/24.mp4')
 sequence = []
 
 while cap.isOpened():
